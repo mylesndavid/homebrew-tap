@@ -1,6 +1,6 @@
 cask "searchable" do
-  version "0.3.0"
-  sha256 "ef6b26e15326c08774272beaabf9298e3a111ceab6ff1023477a4078c58087cc"
+  version "0.3.1"
+  sha256 "d39bffb41923e6da071586b07978171c759e8a225961a9a513c4d379ee189521"
 
   url "https://github.com/mylesndavid/searchable/releases/download/v#{version}/Searchable_#{version}_aarch64.dmg"
   name "Searchable"
