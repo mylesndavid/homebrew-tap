@@ -9,6 +9,10 @@ cask "searchable" do
 
   app "Searchable.app"
 
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Searchable.app"]
+  end
+
   zap trash: [
     "~/.claude-code-explorer",
   ]
