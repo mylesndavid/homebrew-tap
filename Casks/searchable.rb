@@ -11,6 +11,7 @@ cask "searchable" do
 
   postflight do
     system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Searchable.app"]
+    system_command "/usr/bin/open", args: ["#{appdir}/Searchable.app"]
   end
 
   zap trash: [
