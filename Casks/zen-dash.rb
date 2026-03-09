@@ -1,6 +1,6 @@
 cask "zen-dash" do
   version "1.0.0"
-  sha256 "31bb3e157d2d40afa586fd04ab99f5b531549ae034b6f691c245b710a67d0b56"
+  sha256 "95a2a9ea34bb1693b7c40337dc0a4663bb1d7d3b66969be813848abd5e2f7a40"
 
   url "https://github.com/mylesndavid/zen-dash/releases/download/v#{version}/Zen.Dash-#{version}-arm64.dmg"
   name "Zen Dash"
