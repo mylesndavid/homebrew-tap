@@ -1,6 +1,6 @@
 cask "bettermd" do
-  version "1.0.0"
-  sha256 "df84b18ee32467cdd0b8247e55332db4e1302cceaca6c7dcabd0517f72baa8ba"
+  version "1.1.0"
+  sha256 "408d4f668ef5c4270ea64815c5d35610298cd3598b1ede44b95f8fdbcfee01d9"
 
   url "https://github.com/mylesndavid/bettermd/releases/download/v#{version}/BetterMD-#{version}-arm64.dmg"
   name "BetterMD"
